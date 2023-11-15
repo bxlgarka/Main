@@ -1,0 +1,77 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-size: 31px;
+    font-family: 'William', serif;
+    margin-bottom: 0;
+    padding-top: 45px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+img {
+    border-radius: 20px;
+    margin-bottom: 80px;
+    user-select: none;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p a {
+    font-weight: 600;
+    color: #ee77c6;
+    text-decoration: none;
+}
+
+.for_p {
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto 20px;
+    background-color: #5f72bd;
+    width: max-content;
+    box-shadow: #5f72bd 0px 0px 250px,
+                    #000000 inset 0px 0px 25px 1px;
+}
+
+.for_all {
+    box-shadow: inset 0px 0px 100px 1px #000000,
+                      0px 0px 250px #5f72bd;
+    ;
+    border-radius: 16%;
+    text-align: center;
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto 50px;
+    margin-top: 5em;
+}
+s
+* ::selection{
+    background-color: #5f72bd;
+    color: #9b23ea;
+}
